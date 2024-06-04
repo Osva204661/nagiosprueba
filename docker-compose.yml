@@ -1,0 +1,14 @@
+version: '3'
+
+services:
+  
+  nagios:
+    image: "vegabeltranosvaldo/imagennagios:12"
+    build: 
+      context: './'
+      dockerfile: 'Dockerfile'
+    container_name: nagiosservice
+    ports:
+      - "8080:80"
+    restart: always    
+

@@ -1,0 +1,1 @@
+FROM vegabeltranosvaldo/imagennagios:12
